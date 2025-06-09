@@ -10,12 +10,6 @@ This project develops and evaluates various machine learning models to predict t
 -   [Data Sources](#data-sources)
 -   [Setup Instructions](#setup-instructions)
 -   [Running the Pipeline](#running-the-pipeline)
--   [Key Methodologies](#key-methodologies)
--   [Results](#results)
--   [Future Work](#future-work)
--   [Contributing](#contributing)
--   [License](#license)
--   [Contact](#contact)
 
 ## Project Overview
 
