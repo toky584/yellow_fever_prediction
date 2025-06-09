@@ -1,4 +1,4 @@
-# Machine learning approaches to predict Yellow Fever Spillover Events
+# Machine Learning Approaches to Predict Yellow Fever Spillover Events
 
 This project develops and evaluates various machine learning models to predict the risk of Yellow Fever (YF) spillover events in Brazilian municipalities. It integrates epidemiological records, environmental covariates (temperature, precipitation, population, species richness), and viral genomic data to identify key predictive factors and build robust forecasting tools.
 
