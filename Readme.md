@@ -1,4 +1,4 @@
-# Yellow Fever Spillover Risk Prediction in Brazil using Machine Learning
+# Machine learning approaches to predict Yellow Fever Spillover Events
 
 This project develops and evaluates various machine learning models to predict the risk of Yellow Fever (YF) spillover events in Brazilian municipalities. It integrates epidemiological records, environmental covariates (temperature, precipitation, population, species richness), and viral genomic data to identify key predictive factors and build robust forecasting tools.
 
@@ -39,25 +39,26 @@ The steps for the scripts of this project is following the following workflow ![
 
 ## Repository Structure
 yellow-fever-spillover-prediction/
-├── data/ # (To be created by user for raw data files )
-├── processed_data/ # (Created by the scripts)
+├── data/                  # To be created by user for raw data files
+├── processed_data/        # Created by the scripts
 ├── results/
-│ ├── figures/ # Output plots and maps (contains all the plots)
-│ └── tables/ # Output performance metrics, etc. (created by the scripts)
-│ └── trained_models/ # Saved model objects (created by the scripts)
-├── src/ # Python source code
-│ ├── init.py
-│ ├── S1_data_preparation.py
-│ ├── S2_environmental_data.py
-│ ├── S3_genomic_processing.py
-│ ├── S4_feature_engineering.py
-│ ├── S5_train_evaluate_supervised.py
-│ ├── S6_train_evaluate_lstm.py
-│ ├── S7_train_evaluate_autoencoders.py
-│ ├── S8_visualizations.py
-│ └── utils.py
-├── README.md # This file
-└── requirements.txt # Python package dependencies
+│   ├── figures/           # Output plots and maps (contains all the plots)
+│   └── tables/            # Output performance metrics, etc. (created by the scripts)
+├── trained_models/        # Saved model objects (created by the scripts)
+├── src/                   # Python source code
+│   ├── __init__.py
+│   ├── S1_data_preparation.py
+│   ├── S2_environmental_data.py
+│   ├── S3_genomic_processing.py
+│   ├── S4_feature_engineering.py
+│   ├── S5_train_evaluate_supervised.py
+│   ├── S6_train_evaluate_lstm.py
+│   ├── S7_train_evaluate_autoencoders.py
+│   ├── S8_visualizations.py
+│   └── utils.py
+├── README.md              # This file
+└── requirements.txt       # Python package dependencies
+
 
 
 ## Data Sources
