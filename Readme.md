@@ -59,7 +59,7 @@ yellow-fever-spillover-prediction/
 │   └── utils.py
 ├── README.md              # This file
 └── requirements.txt       # Python package dependencies
-``
+```
 
 ## Data Sources
 
