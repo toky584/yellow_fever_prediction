@@ -38,6 +38,7 @@ The steps for the scripts of this project is following the following workflow ![
 *   Modular Python scripts for reproducibility and extensibility.
 
 ## Repository Structure
+``
 yellow-fever-spillover-prediction/
 ├── data/                  # To be created by user for raw data files
 ├── processed_data/        # Created by the scripts
@@ -58,8 +59,7 @@ yellow-fever-spillover-prediction/
 │   └── utils.py
 ├── README.md              # This file
 └── requirements.txt       # Python package dependencies
-
-
+``
 
 ## Data Sources
 
